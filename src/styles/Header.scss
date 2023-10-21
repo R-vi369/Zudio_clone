@@ -1,0 +1,23 @@
+.header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .headerLeft{
+        margin-left: 3rem;
+        font-size: 4rem;
+    }
+    .headerRight{
+        margin: 1rem;
+        padding-right: 1.4rem;
+        .headerLinks{
+          padding: 1.5rem;
+          font-size: 1.3rem;
+          font-weight: 450;
+          &:hover{
+            color: grey;
+          }
+        }
+    }
+}
