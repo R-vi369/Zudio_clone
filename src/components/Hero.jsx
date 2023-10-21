@@ -1,10 +1,14 @@
 import React from 'react'
-import Header from './Header'
+import '../styles/Hero.scss'
+import Footer from '../components/Footer'
 
 const Hero = () => {
   return (
     <>
- 
+   <div className=" hero">
+
+   </div>
+   <Footer/>
     </>
   )
 }

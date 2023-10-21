@@ -1,0 +1,33 @@
+.zstories{
+    .carousel{
+        background: black;
+        height: 70vh;
+        img{
+            width: 98%;
+            height: 70vh;
+        }
+    }
+    background: white;
+
+    .zstoriesDownSection{
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      padding-bottom: 3rem;
+      cursor: pointer;
+
+        h1{
+            font-size: 3rem;
+            margin: 3rem;
+            font-weight: 490;
+        }
+        .zstoriesImg4All{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 5rem;
+            gap: 3px;
+        }
+    }
+}
