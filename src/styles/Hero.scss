@@ -1,4 +1,17 @@
 .hero{
     height: 77vh;
     background: url('../assets/hero.jpg') no-repeat;
+    background-size: cover;
+    width: 97%;
+ display: flex;
+ flex-direction: column;
+ .heroLinks{
+        margin-left: 3rem;
+        margin-top: 1.6rem;
+        font-size: 1.5rem;
+        color: yellow;
+        &:hover{
+            color: rgb(161, 150, 150);
+        }
+    }
 }
