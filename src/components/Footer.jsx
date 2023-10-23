@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {AiOutlineInstagram} from 'react-icons/ai'
 const Footer = () => {
     return (
         <>
@@ -7,9 +7,14 @@ const Footer = () => {
                 <div className='mx-20 '>
                     <p >COPYRIGHT 	&copy; 2023 ZUDIO</p>
 
-                    <div className='flex'>
+                    <div className='flex items-center gap-2'>
                         <p>DON’T MISS OUT ON THE LATEST IN FASHION.</p>
-                        <p>instagram-icon FOLLOW US @MYZUDIO</p>
+                        <p><a href="https://www.instagram.com/myzudio/?hl=en" target='_blank'>
+
+                            <AiOutlineInstagram/>
+                        </a>
+                        </p>
+                        <p> FOLLOW US @MYZUDIO</p>
                     </div>
                 </div>
                 <div className='mx-20'>
