@@ -1,5 +1,6 @@
 import React from 'react'
-import zstoriesImg1 from '../assets/zstudioImg/zstoriesImg1.jpg'
+// import zstoriesImg1 from '../assets/zstudioImg/zstoriesImg1.jpg'
+import CarouselAll from './carouselAll'
 import '../styles/Zstories.scss'
 import imgZudio1 from '../assets/zstudioImg/imgZudio1.jpg'
 import imgZudio2 from '../assets/zstudioImg/imgZudio2.jpg'
@@ -11,7 +12,7 @@ const Zstories = () => {
     <div className="zstories">
 
       <div className="carousel">
-        <img src={zstoriesImg1} alt="" />
+        <CarouselAll/>
       </div>
 
       <div className="zstoriesDownSection">
