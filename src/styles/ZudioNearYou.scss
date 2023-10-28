@@ -1,16 +1,45 @@
-.zudioNearYou{
-    background-color: white;
-    height: 100vh;
-    color: black;
-    .HSL{
-        display: flex;
-        align-items: center;
-        padding: 3.5rem 1rem;
-        .hsl_link{
-            &:hover{
-               color: #b3b5b6 ;
-            }
-        }
-   
+.zudioNearYou {
+  background-color: white;
+  height: 100vh;
+  color: black;
+  .HSL {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    padding: 3.9rem 0 2.5rem 1rem;
+    .hsl_link {
+      &:hover {
+        color: #b3b5b6;
+      }
     }
+  }
+
+  .location {
+    height: 40vh;
+
+    padding: 0 1rem;
+
+    h1 {
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #3d4246;
+    }
+    .findZudioStore {
+      display: flex;
+      margin-top: 1rem;
+      padding-top: 1rem;
+      justify-content: center;
+      gap: 20px;
+      align-items: center;
+      flex-direction: column;
+      background-color: #efefef;
+      height: 29vh;
+      h1 {
+        font-size: 1.7rem;
+        font-weight: 800;
+        color: #3d4246 ;
+      }
+    }
+  }
 }
