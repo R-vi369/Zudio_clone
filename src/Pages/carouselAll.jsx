@@ -1,52 +1,66 @@
-import React from 'react'
-import Carousel from 'react-bootstrap/Carousel';
-// import ExampleCarouselImage from 'components/ExampleCarouselImage';
-import herooo from '../assets/hero.jpg'
-import logoo from '../assets/logo.png'
-const CarouselAll = () => {
+import { Carousel } from 'react-bootstrap';
+import zstoriesZ1 from '../assets/zstudioImg/zstoriesZ1.jpg'
+import zstoriesZ2 from '../assets/zstudioImg/zstoriesZ2.jpg'
+import zstoriesZ3 from '../assets/zstudioImg/zstoriesZ3.jpg'
+
+
+
+const carouselAll = () => {
   return (
     <>
-      <Carousel>
-      <Carousel.Item interval={1000}> {/* Adjust the interval as needed */}
-        <img
-          className="d-block w-100"
-          src={herooo}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First Slide</h3>
-          <p>This is the first slide.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={1000}>
-        <img
-          className="d-block w-100"
-          src={logoo}
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-          <h3>Second Slide</h3>
-          <p>This is the second slide.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={1000}>
-        <img
-          className="d-block w-100"
-          src={herooo}
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h3>Third Slide</h3>
-          <p>This is the third slide.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+    
+    <Carousel id="carouselExampleCaptions" data-ride="carousel">
+      <ol className="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div className="carousel-inner">
+        <Carousel.Item className="active">
+          <img
+            src={zstoriesZ1}
+            className="d-block w-100"
+            alt="..."
+          />
+          <Carousel.Caption className="d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            src={zstoriesZ2}
+            className="d-block w-100"
+            alt="..."
+          />
+          <Carousel.Caption className="d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+         src={zstoriesZ3}
+            className="d-block w-100"
+            alt="..."
+          />
+          <Carousel.Caption className="d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </div>
+      <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
+      </a>
+      <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
+      </a>
     </Carousel>
-    
-    
-    
-    
     </>
   )
 }
 
-export default CarouselAll
+export default carouselAll

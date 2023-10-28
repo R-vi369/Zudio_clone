@@ -1,0 +1,16 @@
+.zudioNearYou{
+    background-color: white;
+    height: 100vh;
+    color: black;
+    .HSL{
+        display: flex;
+        align-items: center;
+        padding: 3.5rem 1rem;
+        .hsl_link{
+            &:hover{
+               color: #b3b5b6 ;
+            }
+        }
+   
+    }
+}
