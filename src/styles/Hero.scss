@@ -4,8 +4,12 @@
  display: flex;
  flex-direction: column;
  .heroLinks{
+     z-index: 99;
       position: relative;
-      bottom: 28rem;
+      bottom: 16rem;
+      right: 1rem;
+    display: flex;
+    flex-direction: column;
         margin-left: 3rem;
         margin-top: 1.6rem;
         font-size: 1.3rem;

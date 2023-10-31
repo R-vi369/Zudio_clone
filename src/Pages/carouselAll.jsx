@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 
 
-const carouselAll = ({caro1, caro2, caro3, caro4 , caro5, caro6}) => {
+const carouselAll = ({caro1, caro2, caro3, caro4 , caro5, caro6, }) => {
   return (
     <>
                 <Carousel showArrows={false} showThumbs={false} autoPlay={true} infiniteLoop={true}>
@@ -33,6 +33,8 @@ const carouselAll = ({caro1, caro2, caro3, caro4 , caro5, caro6}) => {
                 <img src={caro6} />
                     
                 </div>
+              
+
                
               </Carousel>
             
