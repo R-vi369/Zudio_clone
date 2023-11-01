@@ -1,12 +1,12 @@
 .hero{
-    height: 77vh;
+    height: 78vh;
     width: 97%;
  display: flex;
  flex-direction: column;
  .heroLinks{
      z-index: 99;
       position: relative;
-      bottom: 16rem;
+     top: -16rem;
       right: 1rem;
     display: flex;
     flex-direction: column;

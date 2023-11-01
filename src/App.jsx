@@ -6,6 +6,7 @@ import Zudio from './Pages/Zudio'
 import ZudioNearYou from './Pages/ZudioNearYou'
 import Zworld from './Pages/Zworld'
 import { BrowserRouter as Router , Routes, Route } from "react-router-dom"
+import Beauty from './Pages2/Beauty'
 const App = () => {
 
   return (
@@ -24,6 +25,8 @@ const App = () => {
       <Route path="Zudio" element={<Zudio/>}/>
       <Route path="ZudioNearYou" element={<ZudioNearYou/>}/>
       <Route path="Zworld" element={<Zworld/>}/>
+      <Route path="beauty" element={<Beauty/>}/>
+
 
     </Routes>
   </Router>
