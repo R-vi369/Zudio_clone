@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/ZudioNearYou.scss'
 import { Link } from 'react-router-dom'
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md'
+import Location from './Location'
 const ZudioNearYou = () => {
   return (
     <>
@@ -25,11 +26,31 @@ const ZudioNearYou = () => {
             </div>
 
           </div>
-        <div className='Allstore'>
-        ALL STORES (437)
-        </div>
+
 
         </div>
+       
+
+         <div className="AllStore">ALL STORES (437)</div>
+
+
+
+   <div className=" flex justify-center items-center flex-wrap">
+
+  <Location/>
+  <Location/>
+  <Location/>
+  <Location/>
+  <Location/>
+  <Location/>
+
+   </div>
+
+
+
+
+
+
 
 
       </div>

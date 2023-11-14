@@ -1,4 +1,11 @@
 .zudioNearYou {
+  .AllStore{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 1rem;
+    color: rgb(69, 67, 67);
+  }
   background-color: white;
   height: 100vh;
   color: black;
@@ -16,12 +23,7 @@
 
   .location {
     
-    .AllStore{
- display: flex;
- align-items: center;
- align-items: center;
- text-align: center;
-    }
+ 
     height: 40vh;
     padding: 0 1rem;
 
