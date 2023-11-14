@@ -1,5 +1,5 @@
 .hero{
-    height: 78vh;
+    height: 80vh;
     width: 97%;
  display: flex;
  flex-direction: column;
@@ -7,11 +7,11 @@
      z-index: 99;
       position: relative;
      top: -16rem;
-      right: 1rem;
+    //   right: 1rem;
     display: flex;
     flex-direction: column;
-        margin-left: 3rem;
-        margin-top: 1.6rem;
+        margin-left: 2rem;
+        padding: 1rem;
         font-size: 1.3rem;
         color: yellow;
         &:hover{

@@ -21,92 +21,92 @@ const Hero = () => {
   return (
     <>
       <div className=" hero">
-      <Carousel showArrows={false} showThumbs={false} autoPlay={true} infiniteLoop={true} transitionTime={1}>
-                <div>
-                    <img src={heroimg1 }/>
-              
-                </div>
-                <div>
-                    <img src={heroimg2 }/>
-              
-                </div>
-                 <div>
-                    <img src={heroimg3 }/>
-              
-                </div>
-                 <div>
-                    <img src={heroimg4 }/>
-              
-                </div>
-                 <div>
-                    <img src={heroimg5 }/>
-              
-                </div>
-                 <div>
-                    <img src={heroimg6 }/>
-              
-                </div> 
-                <div>
-                    <img src={heroimg7 }/>
-              
-                </div>
-                <div>
-                    <img src={heroimg8 }/>
-              
-                </div>
-                <div>
-                    <img src={heroimg9 }/>
-              
-                </div>
-                <div>
-                    <img src={heroimg10 }/>
-              
-                </div>
-                <div>
-                    <img src={heroimg11 }/>
-              
-                </div>
-                <div>
-                    <img src={heroimg12 }/>
-              
-                </div>
-                <div>
-                    <img src={heroimg13 }/>
-              
-                </div>
-               
-              </Carousel>
-       <div className="heroLinks">
+        <Carousel showArrows={false} showThumbs={false} autoPlay={true} infiniteLoop={true} transitionTime={1}>
+          <div>
+            <img src={heroimg1} />
 
-        <Link className='heroLinks' to='/beauty'>
-          Beauty
-        </Link>
-          
-        <Link className='heroLinks' to='/women'>
-        Women
-        </Link>
-        
-        <Link className='heroLinks' to='/men'>
-         Men
-        </Link>
-        
-        <Link className='heroLinks' to='/ethinic'>
-          Ethinic
-        </Link>
-        
-        <Link className='heroLinks' to='/kids'>
-          Kids
-        </Link>
-        
-        <Link className='heroLinks' to='/loungewear'>
-        Loungewear
-        </Link>
-        
-        <Link className='heroLinks' to='/footwear'>
-          Footerwear
-        </Link>
-       </div>
+          </div>
+          <div>
+            <img src={heroimg2} />
 
+          </div>
+          <div>
+            <img src={heroimg3} />
+
+          </div>
+          <div>
+            <img src={heroimg4} />
+
+          </div>
+          <div>
+            <img src={heroimg5} />
+
+          </div>
+          <div>
+            <img src={heroimg6} />
+
+          </div>
+          <div>
+            <img src={heroimg7} />
+
+          </div>
+          <div>
+            <img src={heroimg8} />
+
+          </div>
+          <div>
+            <img src={heroimg9} />
+
+          </div>
+          <div>
+            <img src={heroimg10} />
+
+          </div>
+          <div>
+            <img src={heroimg11} />
+
+          </div>
+          <div>
+            <img src={heroimg12} />
+
+          </div>
+          <div>
+            <img src={heroimg13} />
+
+          </div>
+
+        </Carousel>
+
+        <div className="heroLinks">
+
+          <Link className='heroLinks' to='/beauty'>
+            Beauty
+          </Link>
+
+          <Link className='heroLinks' to='/women'>
+            Women
+          </Link>
+
+          <Link className='heroLinks' to='/men'>
+            Men
+          </Link>
+
+          <Link className='heroLinks' to='/ethinic'>
+            Ethinic
+          </Link>
+
+          <Link className='heroLinks' to='/kids'>
+            Kids
+          </Link>
+
+          <Link className='heroLinks' to='/loungewear'>
+            Loungewear
+          </Link>
+
+          <Link className='heroLinks' to='/footwear'>
+            Footerwear
+          </Link>
+        </div>
       </div>
       <Footer />
     </>
