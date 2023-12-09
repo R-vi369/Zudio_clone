@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import zudioShateimgs01 from '../assets/shareImg/zudioShateimgs01.jpg'
 import zudioShateimgs02 from '../assets/shareImg/zudioShateimgs02.jpg'
 import zudioShateimgs03 from '../assets/shareImg/zudioShateimgs03.jpg'
@@ -26,6 +26,10 @@ import zudioShateimgs24 from '../assets/shareImg/zudioShateimgs24.jpg'
 import Footer from '../components/Footer'
 
 const Zudio = () => {
+   const [love, setLove] = useState('');
+   const heart =()=>{
+ alert('hello')
+   }
   return (
     <>
 
@@ -36,7 +40,7 @@ const Zudio = () => {
           <p className='text-2xl py-2'>SHARE YOUR LOOK</p>
         </div>
 
-        <div className='flex m-20 flex-wrap justify-center gap-4 '>
+        <div className='flex m-20 flex-wrap justify-center gap-4 cursor-pointer' onDoubleClick={heart}>
 
           <img src={zudioShateimgs01} alt="" />
           <img src={zudioShateimgs02} alt="" />
