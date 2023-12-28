@@ -77,7 +77,7 @@ const Hero = () => {
 
         </Carousel>
 
-        <div className="heroLinks">
+        {/* <div className="heroLinks">
 
           <Link className='heroLinks' to='/beauty'>
             Beauty
@@ -106,7 +106,7 @@ const Hero = () => {
           <Link className='heroLinks' to='/footwear'>
             Footerwear
           </Link>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </>
